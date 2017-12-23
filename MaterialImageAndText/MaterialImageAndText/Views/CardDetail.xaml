@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaterialImageAndText.Views.CardDetail">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Grid>
+                <Image x:Name="imgCard" HorizontalOptions="Fill" VerticalOptions="Start" Aspect="AspectFill" Source="cardimage1.PNG"/>
+                <ScrollView Scrolled="ScrollView_Scrolled">
+
+                    <Grid x:Name="grdContentArea" HorizontalOptions="Fill" VerticalOptions="Start" BackgroundColor="White">
+
+
+                        <StackLayout HorizontalOptions="Fill" VerticalOptions="Start" Padding="10">
+
+
+                            <Label Text="Some new content Title" FontAttributes="Bold" Opacity="0.8"/>
+                            <Label Text="Some new content Title" FontAttributes="Bold" Opacity="0.6">
+                                <Label.Text>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nulla ligula, viverra ac dictum ac, pellentesque ut est. Quisque sapien lorem, iaculis sed lacinia vel, fringilla et tellus. Fusce auctor tincidunt felis. Ut faucibus ultricies nisi, vitae tristique mauris aliquet vel. Cras vel congue risus. Sed sodales ultrices risus, eu convallis tortor luctus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ultricies pretium ultrices. Quisque rutrum feugiat ante. Donec nec purus facilisis, convallis diam vitae, condimentum nibh. Ut tincidunt, sapien in porttitor ultrices, lacus orci sagittis metus, at hendrerit arcu metus sed tortor.
+                                </Label.Text>
+                            </Label>
+                        </StackLayout>
+
+                        <Image x:Name="imgFloatButton" VerticalOptions="Start" HorizontalOptions="End" Margin="0,-30,25,0" HeightRequest="60" WidthRequest="60" Source="material_play.png"/>
+
+
+
+                    </Grid>
+                </ScrollView>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

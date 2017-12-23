@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaterialImageAndText.Views.CardsPage"
+             xmlns:controls="clr-namespace:MaterialImageAndText.Controls"
+              BackgroundColor="#f1f1f2">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <controls:CardView/>
+                <controls:CardView/>
+                <controls:CardView/>
+                <controls:CardView/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
