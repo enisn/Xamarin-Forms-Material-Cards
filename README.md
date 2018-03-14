@@ -1,5 +1,5 @@
 # Xamarin-Forms-Material-Cards
-Material DEsign in Xamarin Forms
+Material Design in Xamarin Forms
 
 - Opening animation will be added
 - Other material componenets are coming soon!
